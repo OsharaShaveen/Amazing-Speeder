@@ -59,6 +59,8 @@ async def start_(client: Client, message: Message):
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
 🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+
+😇 **Respect My Master, My Master Is WhiteDevilOp999
 """,
         reply_markup=InlineKeyboardMarkup(
             [
