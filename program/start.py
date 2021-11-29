@@ -60,7 +60,7 @@ async def start_(client: Client, message: Message):
 
 🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
 
-😇 **Respect My Master, My Master Is WhiteDevilOp999
+😇 **Respect My Master, My Master Is @WhiteDevilOp999**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
