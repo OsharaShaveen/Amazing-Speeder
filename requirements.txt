@@ -19,3 +19,4 @@ psutil
 future
 wget
 pytgcalls
+dataclasses
