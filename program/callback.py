@@ -34,7 +34,7 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/WhiteDevilOp999"),
+                    InlineKeyboardButton("♻️ Ehi Files", callback_data="cbehi"),
                 ],
                 [
                     InlineKeyboardButton(
