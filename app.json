@@ -9,7 +9,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/SLEHIGROUP",
-    "repository": "https://github.com/levina-lab/video-stream",
+    "repository": "https://github.com/OsharaShaveen/Speeder",
     "success_url": "https://t.me/WhiteDevilOp999",
     "env": {
         "API_ID": {
@@ -47,22 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "VeezSupportGroup"
+            "value": "Dp_Bots"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "levinachannel"
+            "value": "Dp_Bots_Channel"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "dlwrml"
+            "value": "WhiteDevilOp999"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "Levina"
+            "value": "Speeder 1.2"
         }
     },
     "addons": [],
