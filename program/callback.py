@@ -155,12 +155,12 @@ async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""🏮 here is the sudo commands:
 
-» /rmw - clean all raw files
-» /rmd - clean all downloaded files
-» /sysinfo - show the system information
-» /update - update your bot to latest version
-» /restart - restart your bot
-» /leaveall - order userbot to leave from all group
+» Zoom - [Zoom](https://www.mediafire.com/download/uxp83ipuc74smpr)
+» Youtube = [YT](https://www.mediafire.com/download/19bbfs12xjo1opj)
+» Whatsapp = [Whatsapp](Link)
+» Facebook = [Facebook][Link]
+» Netflix = [Netflix](Link)
+» Twitter = [Twitter](Link)
 
 ⚡ __Powered by DP BOTS AI__""",
         reply_markup=InlineKeyboardMarkup(
