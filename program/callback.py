@@ -22,6 +22,7 @@ async def cbstart(_, query: CallbackQuery):
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
 🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
+🙂 **Respect My Master, My Master Is [WhiteDevil](t.me/WhiteDevilOp999)**\n
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -33,7 +34,7 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/WhiteDevilOp999"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -45,7 +46,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "🌐 Source Code", url="https://github.com/OsharaShaveen/Speeder"
                     )
                 ],
             ]
@@ -70,7 +71,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+⚡ __Powered by DP BOTS A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
         ),
@@ -84,7 +85,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+⚡ __Powered by DP BOTS A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -92,6 +93,7 @@ async def cbcmds(_, query: CallbackQuery):
                     InlineKeyboardButton("🧙🏻 Sudo Cmd", callback_data="cbsudo"),
                 ],[
                     InlineKeyboardButton("📚 Basic Cmd", callback_data="cbbasic")
+                    InlineKeyBoardButton("♻️ Ehi Files", callback_data="cbehi")
                 ],[
                     InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")
                 ],
@@ -119,7 +121,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /uptime - show the bot uptime status
 » /alive - show the bot alive info (in group)
 
-⚡️ __Powered by {BOT_NAME} AI__""",
+⚡️ __Powered by DP BOTS AI__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -142,7 +144,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotjoin - invite the userbot to join group
 » /userbotleave - order userbot to leave from group
 
-⚡️ __Powered by {BOT_NAME} AI__""",
+⚡️ __Powered by DP BOTS AI__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -160,12 +162,17 @@ async def cbsudo(_, query: CallbackQuery):
 » /restart - restart your bot
 » /leaveall - order userbot to leave from all group
 
-⚡ __Powered by {BOT_NAME} AI__""",
+⚡ __Powered by DP BOTS AI__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
     )
-
+@Cilent.on_callback_query(filters.regex("cbehi"))
+async def cbehi(_. query: CallbackQuery):
+    await query.edit_message_text(
+        f"""♻️ here Is The Ehi Links:
+» Zoom =[Zoom](https://www.mediafire.com/download/uxp83ipuc74smpr)
+» YT   =[YT](https://www.mediafire.com/download/19bbfs12xjo1opj)
 
 @Client.on_callback_query(filters.regex("cbmenu"))
 async def cbmenu(_, query: CallbackQuery):
