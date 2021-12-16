@@ -34,7 +34,7 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("♻️ Ehi Files", callback_data="cbehi"),
+                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -90,7 +90,7 @@ async def cbcmds(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton("👷🏻 Admin Cmd", callback_data="cbadmin"),
-                    InlineKeyboardButton("🧙🏻 Sudo Cmd", callback_data="cbsudo"),
+                    InlineKeyboardButton("♻️ Ehi Cmd", callback_data="cbsudo"),
                 ],[
                     InlineKeyboardButton("📚 Basic Cmd", callback_data="cbbasic")
 
@@ -153,7 +153,7 @@ async def cbadmin(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbsudo"))
 async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 here is the sudo commands:
+        f"""🏮 here is the Ehi Links:
 
 » Zoom - [Zoom](https://www.mediafire.com/download/uxp83ipuc74smpr)
 » Youtube = [YT](https://www.mediafire.com/download/19bbfs12xjo1opj)
@@ -167,12 +167,12 @@ async def cbsudo(_, query: CallbackQuery):
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
     )
-@Cilent.on_callback_query(filters.regex("cbehi"))
-async def cbehi(_. query: CallbackQuery):
-    await query.edit_message_text(
-        f"""♻️ here Is The Ehi Links:
-» Zoom =[Zoom](https://www.mediafire.com/download/uxp83ipuc74smpr)
-» YT   =[YT](https://www.mediafire.com/download/19bbfs12xjo1opj)
+
+
+
+  
+
+
 
 @Client.on_callback_query(filters.regex("cbmenu"))
 async def cbmenu(_, query: CallbackQuery):
