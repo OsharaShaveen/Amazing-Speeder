@@ -93,7 +93,7 @@ async def cbcmds(_, query: CallbackQuery):
                     InlineKeyboardButton("🧙🏻 Sudo Cmd", callback_data="cbsudo"),
                 ],[
                     InlineKeyboardButton("📚 Basic Cmd", callback_data="cbbasic")
-                    InlineKeyBoardButton("♻️ Ehi Files", callback_data="cbehi")
+
                 ],[
                     InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")
                 ],
