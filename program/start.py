@@ -54,13 +54,13 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
+𖣘 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+ツ **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+✘ **To know how to use this bot, please click on the » ❓ Basic Guide button!**
 
-😇 **Respect My Master, My Master Is @WhiteDevilOp999**
+𖣘 **Respect My Master, My Master Is [WHITE DEVIL](t.me/WhiteDevilOp999)**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -72,20 +72,20 @@ async def start_(client: Client, message: Message):
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("😈 Contact My Owner", url=f"https://t.me/WhiteDevilOp999"),
+                    InlineKeyboardButton("𖣘 Commands", callback_data="cbcmds"),
+                    InlineKeyboardButton("ツ Contact My Owner", url=f"https://t.me/WhiteDevilOp999"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔱 Support Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✘ Support Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Support Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "✘ Support Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇱🇰 Source Code", url="https://github.com/OsharaShaveen/Speeder"
+                        " ツSource Code", url="https://github.com/OsharaShaveen/Speeder"
                     )
                 ],
             ]
