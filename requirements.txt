@@ -17,3 +17,4 @@ motor
 psutil
 future
 wget
+nodejs
