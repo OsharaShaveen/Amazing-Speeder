@@ -9,7 +9,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/SLEHIGROUP",
-    "repository": "https://github.com/OsharaShaveen/Speeder/",
+    "repository": "https://github.com/OsharaShaveen/Speeder",
     "success_url": "https://t.me/WhiteDevilOp999",
     "env": {
         "API_ID": {
